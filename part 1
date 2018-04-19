@@ -80,10 +80,14 @@ def comparison():
         print "Your dataset indicates the minimum Y value is larger than the minimum X value"
      elif mn_idy < mn_idx: 
         print "Your dataset indicates the minimum X value is larger than the minimum Y value"
+     elif mn_idy == mn_idx: 
+        print "Your dataset indicates the minimum X value is equal to the minimum Y value"
      if mx_idy > mx_idx:
         print "Your dataset indicates the maximum Y value is larger than the maximum X value"
      elif mn_idy < mn_idx:
         print "Your dataset indicates the maximum X value is larger than the maximum Y value"
+     elif mn_idy == mn_idx:
+        print "Your dataset indicates the maximum X value is equal to the maximum Y value"
      
 createGraph()
 comparison()
